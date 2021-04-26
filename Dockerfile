@@ -1,4 +1,5 @@
 FROM node:14
-COPY . .
-EXPOSE 8080
+COPY package.json /opt/app-root/src/
+COPY hello.js .
+EXPOSE 80
 CMD [ "node", "hello.js" ]

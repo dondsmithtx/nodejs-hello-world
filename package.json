@@ -4,7 +4,7 @@
   "description": "A simple nodejs hello world app to deploy to Openshift",
   "main": "hello.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "hello.js"
   },
   "repository": {

@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-hello-world",
+  "version": "1.0.0",
+  "description": "A simple nodejs hello world app to deploy to Openshift",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dondsmithtx/nodejs-hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dondsmithtx/nodejs-hello-world/issues"
+  },
+  "homepage": "https://github.com/dondsmithtx/nodejs-hello-world#readme"
+}

@@ -1,5 +1,5 @@
-FROM node:14
-COPY package.json /opt/app-root/src/
+FROM alpine:latest
+RUN apk add --update nodejs npm
 COPY hello.js .
-EXPOSE 80
+EXPOSE 8080
 CMD [ "node", "hello.js" ]
